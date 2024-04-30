@@ -37,6 +37,9 @@ body{
 
 #imageAccroche{
     margin-top: 10px;
+    width: 222px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card{
@@ -45,6 +48,12 @@ body{
     margin-top: 60px;
     border-radius: 25px;
     background: var(--gradient-card);
+    box-shadow: rgba(211, 211, 217, 0.2) 0px 7px 29px 0px;
+}
+
+.card:hover{
+    scale: 110%;
+    transition-duration: 1s
 }
 
 .card-img-top{
@@ -112,6 +121,17 @@ body{
 }
 #card0{
     margin-bottom: 30px;
+}
+
+.cache{
+    opacity: 0;
+    transform:translateY(-30px) ;
+}
+
+.visible{
+    opacity: 100%;
+    transform: translateY(0);
+    transition-duration: 3s ;
 }
 
 @media screen and (max-width : 370px){
