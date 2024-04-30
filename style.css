@@ -1,0 +1,122 @@
+:root{
+    --font : 'Roboto';
+    --font-weight-title : 700;
+    --font-weight-body : 400;
+    --title-font-size : 1.5rem;
+    --body-font-size : 1rem;
+
+    --gradient-fond : linear-gradient(90.98deg, #0C0E10 0.84%, #1D1D1D 119.31%);
+    --gradient-card : linear-gradient(180.08deg, #FFFFFF 0.07%, #A49D9D 106.18%);   
+}
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(90.98deg, #0C0E10 0.84%, #1D1D1D 119.31%);
+}
+
+#logo{
+    width: 134px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#accroche{
+    color: #FFFFFF;
+    font-size: var(--title-font-size);
+    font-weight: var(--font-weight-title);
+    margin-top: 60px;
+    max-width: 285px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imageAccroche{
+    margin-top: 10px;
+}
+
+.card{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 25px;
+    background: var(--gradient-card);
+}
+
+.card-img-top{
+    padding: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.title{
+    font-size: var(--title-font-size);
+    font-weight: var(--font-weight-title);
+    color: #FFFFFF;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: #0C0E10;
+    border-radius: 43px;
+}
+
+.card-body{
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-size);
+}
+
+.item{
+    display: flex;
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-title);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#item{
+    margin-bottom: 30px;
+}
+.item img{
+    margin-right: 10px;
+}
+
+.imgReseau{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 200;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgReseau a{
+    cursor: pointer;
+}
+
+#insta{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#copy{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#card0{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width : 370px){
+    #imageAccroche img{
+        width : 216.55px;
+        height : 173px;   
+    }
+}
